@@ -523,7 +523,6 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 }
 
 .modal {
-    position: relative;
     width: 408px;
     height: 584px;
     background-color: #fcfcfc;
@@ -559,4 +558,31 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     text-align: center;
     color: #2e2f42;
     padding-top: 72px;
+}
+
+.cont-form {
+    width: 100%;
+    height: 336px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.label {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    }
+
+.inpt {
+    border-radius: 4px;
+}
+
+.check-form {
+    padding-left: 24px;
+    padding-right: 24px;
 }
