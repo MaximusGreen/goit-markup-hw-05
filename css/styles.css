@@ -523,10 +523,40 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 }
 
 .modal {
+    position: relative;
     width: 408px;
     height: 584px;
     background-color: #fcfcfc;
     border-radius: 4px;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     margin: 80px auto 8px;
+}
+
+.modal-c {
+    position: absolute;
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 100%;
+    width: 24px;
+    height: 24px;
+    background: #e7e9fc;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    margin-left: 360px;
+}
+
+.ic-cens {
+    width: 8px;
+    height: 8px;
+}
+
+.title-bac {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    padding-top: 72px;
 }
