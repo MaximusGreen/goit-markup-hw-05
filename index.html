@@ -458,30 +458,29 @@
         </div>
 
         <div class="label-df">
+          <p class="label-p">Subscribe</p>
           <form class="form-f">
-            <label for="email" class="label-f">Subscribe</label>
-            <div class="inp-foot">
-              <input
-                class="inpt-f"
-                type="email"
-                name="email"
-                id="email"
-                placeholder="E-mail"
-              />
-              <button type="submit" class="form-btn">
-                Subscribe
-                <svg class="ic-sub" width="24" height="24">
-                  <use href="./images/icons.svg#icon-telegram"></use>
-                </svg>
-              </button>
-            </div>
+            <label for="email-f" class="label-f"></label>
+            <input
+              class="inpt-f"
+              type="email"
+              name="email"
+              id="email-f"
+              placeholder="E-mail"
+            />
+            <button type="submit" class="form-btn">
+              Subscribe
+              <svg class="ic-sub" width="24" height="24">
+                <use href="./images/icons.svg#icon-telegram"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
     </footer>
 
     <!-- is-open -->
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="modal-cb">
           <svg class="ic-cens" width="8" height="8">
@@ -489,15 +488,15 @@
           </svg>
         </button>
 
-        <h4 class="title-bac">Leave your contacts and we will call you back</h4>
+        <p class="title-bac">Leave your contacts and we will call you back</p>
         <form class="cont-form">
           <div class="label-d">
-            <label for="name" class="label"> Name</label>
+            <label for="user-name" class="label"> Name</label>
             <div class="inp-wrap">
               <input
                 class="inpt"
                 type="text"
-                name="name"
+                name="user-name"
                 id="name"
                 placeholder=""
               />
@@ -540,11 +539,11 @@
           </div>
 
           <div class="label-d">
-            <label for="comment" class="label"> Comment</label>
+            <label for="user-comment" class="label"> Comment</label>
             <textarea
               class="inpt-com"
-              name="comment"
-              id="comment"
+              name="user-comment"
+              id="user-comment"
               placeholder="Text input"
             ></textarea>
           </div>
@@ -553,19 +552,19 @@
             <input
               type="checkbox"
               class="check-inp visually-hidden"
-              name="hobby"
-              value="priv-pol"
-              id="check-inp"
+              name="user-privacy"
+              value="true"
+              id="user-privacy"
             />
 
-            <label for="check-inp" class="label-check">
+            <label for="user-privacy" class="label-check">
               <span class="check-span">
                 <svg class="chekmark" width="10" height="8">
-                  <use href="/images/icons.svg#icon-checkmark"></use>
+                  <use href="./images/icons.svg#icon-checkmark"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the
-              <a href="">Privacy Policy</a>
+              <a class="linc-polic">Privacy Policy</a>
             </label>
           </div>
 
