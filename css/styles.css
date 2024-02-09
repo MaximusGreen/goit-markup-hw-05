@@ -666,7 +666,14 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 }
 
 .check-inp a {
+    line-height: 1.33333;
+    text-decoration: underline;
     color: #8e8f99;
+}
+
+.check-inp span {
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
 .label-ch {
