@@ -658,8 +658,6 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 }
 
 .check-inp {
-    display: flex;
-    align-items: center;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.16667;
@@ -668,10 +666,13 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.check-inp a {
+.label-check a {
     line-height: 1.33333;
     text-decoration: underline;
+    text-decoration-skip-ink: none;
     color: #8e8f99;
+    margin-left: 4px;
+
 }
 
 .check-span {
@@ -683,6 +684,8 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     fill: transparent;
+    margin-right: 8px;
+    
 }
 
 .label-check {
@@ -691,9 +694,10 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     font-size: 12px;
     line-height: 1.16667;
     letter-spacing: 0.04em;
+   
 }
 
-.label-check:checked + .check-span {
+.check-inp:checked + .label-check span {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
@@ -701,11 +705,6 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 
 .label-ch {
     margin-bottom: 24px;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 8px;
 }
 
 .mod-ic {
