@@ -693,7 +693,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
     }
 
 .label-d {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .inpt {
@@ -775,6 +775,8 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 }
 
 .label-check {
+    display: flex;
+    align-items: center;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
