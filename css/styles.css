@@ -761,7 +761,7 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47,
 
 }
 
-.check-span {
+.label-check span {
     display: inline-flex;
     align-items: center;
     justify-content: center;
